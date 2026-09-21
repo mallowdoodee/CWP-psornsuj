@@ -2,4 +2,4 @@ import sys
 if len(sys.argv) <= 2:
     print("None")
 else:
-    for arg in reversed(sys.argv[1:]): print(arg.lower())
+    print(sys.argv[2].count(sys.argv[1]))
