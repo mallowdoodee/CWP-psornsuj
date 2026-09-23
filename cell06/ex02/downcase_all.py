@@ -1,9 +1,11 @@
 import sys
-def upcase_it(text):
+def downcase_it(text):
     return text.lower()
 
 if len(sys.argv) > 2:
     for each in sys.argv:
-        print(upcase_it(each))
+        print(downcase_it(each))
 else:
     print("none")
+
+# python ./downcase_all.py "HELLO WORLD" "I understood Arrays well!"

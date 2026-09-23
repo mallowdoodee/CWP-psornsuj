@@ -1,7 +1,8 @@
-import sys
-def add_one(arg):
+def add_one(arg=int):
     return arg+1
 
-var = 100
+var = 42
 print(var)
-print(add_one(var))
+add_one(var)
+print(var)
+

@@ -13,3 +13,5 @@ else:
             enlarge(each)
         else:
             shrink(each)
+
+    # ./methods_everywhere.py 'lol' 'physically' 'backpack'
